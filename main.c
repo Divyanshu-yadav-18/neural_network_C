@@ -1,7 +1,8 @@
 #include <stddef.h>
+#include <stdint.h>
 #include <stdio.h>
 typedef struct {
-  size_t rows, cols;
+  uint32_t rows, cols;
 
   float *data;
 } Mat;
